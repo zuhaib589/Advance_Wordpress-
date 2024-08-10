@@ -49,3 +49,8 @@ console.log(lastfood);
 
 // object
 
+
+
+
+//                        DOM
+
