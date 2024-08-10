@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+
+    <style>
+*{
+  background-color: rgb(201, 201, 222);
+
+}
+#text{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 20%;
+}
+#btn{
+    margin-left: 40%;
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    
+
+}
+
+
+    </style>
+
+</head>
+<body>
+    
+<p id="text">
+I'm waiting for change!!! Please Change me 
+</p>
+
+<input type="button" value="click me to change!!"  id="btn">
+
+<script>
+
+
+// accessing on the basis of id 
+
+var  para = document.getElementById("text")
+var  but  = document.getElementById("btn")
+
+// Changing text
+
+var  intialText =text.innerHTML
+var  newText= "yesss I'm changed Successfully!!!"
+
+but.addEventListener("click", function () {
+    if (text.innerHTML === intialText){
+        text.innerHTML=newText;
+    }
+    else{
+        alert('The text is going to be in original state!');
+        text.innerHTML=intialText
+    }
+    
+
+})
+
+
+</script>
+
+</body>
+</html>
