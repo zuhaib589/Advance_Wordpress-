@@ -42,9 +42,14 @@
 
 // array
 
-food=["Breakfast" , "lunch", "dinner"]
-lastfood=food[food.length - 1]
-console.log(lastfood);
+// food=["Breakfast" , "lunch", "dinner"]
+// food[10]="apple"
+// console.log(food[10])
+// console.log(food.length)
+
+
+// lastfood=food[food.length - 1]
+// console.log(lastfood);
 
 
 // object
@@ -54,3 +59,8 @@ console.log(lastfood);
 
 //                        DOM
 
+// console.log("10"*2); //20
+// console.log(2+2+"3"); 2+2=4concat 3=43
+// console.log(1+"2"+"2"); 122 
+// console.log("5"-2); 3
+// console.log("5"**2); 2 power 2 25
